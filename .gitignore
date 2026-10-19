@@ -51,3 +51,7 @@ models/
 
 # Generated analysis outputs
 reports/data_summary.json
+
+!data/
+!data/processed/
+!data/processed/*.parquet
