@@ -1,0 +1,53 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+.venv-*/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Raw and processed datasets
+data/raw/
+data/processed/
+*.xlsx
+*.xls
+*.csv
+*.parquet
+
+# ML experiments and generated outputs
+mlruns/
+mlflow.db
+*.log
+outputs/
+reports/generated/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# MLflow experiment tracking
+mlruns/
+*.db
+
+# Python test cache
+.pytest_cache/
+
+# Internal project specification
+Zidio_spec.pdf
+
+# Generated model artifacts
+models/
+
+# Generated analysis outputs
+reports/data_summary.json
