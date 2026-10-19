@@ -183,13 +183,23 @@ RetailPulse/
 
 ## 📜 Demo video script (4 – 8 min)
 
-1. Open **0:00–0:30** — business problem, RetailPulse value proposition.
-2. **0:30–2:00** — walk through Sales Dashboard, filtering, KPI cards.
-3. **2:00–3:30** — Customer Analytics → RFM segments, K-Means silhouette pick, segment contributions.
-4. **3:30–5:00** — Forecasting → 30-day aggregate + per-product forecast with confidence band, MAE / WAPE table.
-5. **5:00–6:30** — Churn Risk → risk bands, retention suggestions.
-6. **6:30–7:30** — Inventory → change lead time & service level live, show reorder math.
-7. **7:30–8:00** — Monitoring → PSI drift + retraining instructions; close with business impact numbers.
+## 📜 Demo Video Script (3 min 50 sec)
+
+1. **Open (0:00–0:20)** — Introduce the business problem and RetailPulse value proposition.
+
+2. **Sales Dashboard (0:20–0:50)** — Walk through KPI cards, sales metrics, and filtering.
+
+3. **Customer Analytics (0:50–1:20)** — Demonstrate RFM segments, K-Means silhouette score, and segment contributions.
+
+4. **Demand Forecasting (1:20–2:00)** — Show the 30-day aggregate and per-product forecasts, confidence band, and MAE/WAPE metrics.
+
+5. **Churn Risk (2:00–2:30)** — Explain customer risk bands and retention suggestions.
+
+6. **Inventory Optimization (2:30–3:00)** — Demonstrate lead-time and service-level adjustments, including reorder calculations.
+
+7. **Model Monitoring & Closing (3:00–3:50)** — Show PSI drift monitoring and retraining guidance, then summarize RetailPulse's business value.
+
+
 
 ---
 
@@ -203,3 +213,25 @@ RetailPulse/
 ## 🚀 Public deployment (not done in this build)
 
 We prepared for **Streamlit Community Cloud** deployment but did not push the actual public URL from this sandbox — the spiral-monitor must verify before claiming any live link.
+
+## Dataset and Attribution
+
+**Dataset Name:** Online Retail II
+
+**Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/502/online_retail%2Bii)
+
+**Creator:** Daqing Chen
+
+**Records:** 1,067,371 transactions
+
+**Period:** December 2009 – December 2011
+
+**Original File:** `online_retail_II.xlsx`
+
+**Citation:** Chen, D. (2012). *Online Retail II* [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5CG6D
+
+### How the Dataset Is Used
+
+RetailPulse uses this dataset for sales analysis, customer segmentation using RFM analysis, churn-risk prediction, demand forecasting, and inventory recommendations.
+
+The original dataset is stored locally and excluded from the GitHub repository. The processed Parquet datasets used by the application are maintained in `data/processed/`.
