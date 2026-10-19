@@ -14,6 +14,8 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
+st.sidebar.title("Sidebar test")
+st.sidebar.write("If you can see this, the sidebar is rendering.")
 
 PAGES = {
     "Sales Dashboard": "pages/1_Sales_Dashboard.py",
